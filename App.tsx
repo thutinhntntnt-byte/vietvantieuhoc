@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback, useEffect } from 'react';
 import { Grade, EssayCategory, ParagraphCount, UserProfile, ChatMessage, AppStep } from './types';
 import { geminiService } from './services/geminiService';
@@ -89,7 +88,7 @@ const App: React.FC = () => {
         <div className="max-w-2xl w-full bg-white rounded-3xl p-8 shadow-xl border-t-8 border-orange-400">
           <header className="text-center mb-8">
             <span className="text-6xl mb-4 block">🍔</span>
-            <h1 className="text-3xl font-bold text-orange-600 mb-2">Bánh Hamburger Tập Viết Văn</h1>
+            <h1 className="text-3xl font-bold text-orange-600 mb-2">Viết văn hay hơn với Bánh Hamburger</h1>
             <p className="text-gray-500 font-medium">Cùng cô AI viết nên những bài văn thật hay nhé!</p>
           </header>
 
@@ -228,7 +227,7 @@ const App: React.FC = () => {
         <div className="flex items-center gap-3 mb-8 cursor-pointer" onClick={() => setStep(AppStep.SETUP)}>
           <span className="text-3xl">🍔</span>
           <div>
-            <h1 className="font-bold text-orange-600 leading-tight">Bánh Hamburger</h1>
+            <h1 className="font-bold text-orange-600 leading-tight text-sm">Viết văn hay hơn với Bánh Hamburger</h1>
             <p className="text-xs text-gray-400">Lớp {profile.grade} • {profile.category}</p>
           </div>
         </div>
