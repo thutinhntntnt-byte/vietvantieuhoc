@@ -1,0 +1,7 @@
+{
+  "name": "Viết văn hay hơn với Bánh Hamburger ",
+  "description": "Ứng dụng hỗ trợ học sinh tiểu học (lớp 2-5) luyện viết văn theo phương pháp Bánh Hamburger sinh động và hiệu quả.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
